@@ -7,7 +7,7 @@ Under the [models](models) folder you will find the cvs files with the parameter
 
 This repo can be used as a starting point to build your Docker image and deploy it in a cloud service.
 
-This sample app is up at [Vinchuca](https://vinchuca.herokuapp.com). Test it out with your images!
+This sample app is up at [Triatoma](https://triatoma.herokuapp.com). Test it out with your images!
 
 You can test it locally with the command: `python server.py`  or by installing Docker and using the following command:
 ```
