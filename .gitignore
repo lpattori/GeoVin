@@ -1,0 +1,4 @@
+.idea/*
+app/export.pkl
+app/models/*.csv
+app/models/*.pkl

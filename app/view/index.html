@@ -1,0 +1,49 @@
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <title>Kissig Bugs Recognition</title>
+    <link rel='stylesheet' href='../static/style.css'>
+    <link rel="icon"
+      type="image/png"
+      href="../static/icono_vinchuca.png">
+    <script src='../static/client.js'></script>
+</head>
+<body>
+<div>
+    <div class='center'>
+        <div class='title'>Kissing Bugs classification
+            <img src="../static/icono_vinchuca.png" alt="Vinchuca" style="width:21px;height:32px;">
+        </div>
+        <p>
+            Use <strong>kissing bugs</strong> images or <strong>any insect</strong> or whatever you have!
+        </p>
+        <p>🦟  🦋  🕷  🐝  🐜  🐞  🦗  🐛</p>
+        <div class='content'>
+            <div class='no-display'>
+                <input id='file-input'
+                       class='no-display'
+                       type='file'
+                       name='file'
+                       accept='image/*'
+                       onchange='showPicked(this)'
+                >
+            </div>
+            <button class='choose-file-button' type='button' onclick='showPicker()'>Select an Image</button>
+            <div class='upload-label'>
+                <label id='upload-label'>File not selected</label>
+            </div>
+            <div>
+                <img id='image-picked' class='no-display' alt='Chosen Image' height='200'
+                     onclick="restore_image()">
+            </div>
+            <div class='analyze'>
+                <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analize</button>
+            </div>
+            <div class='result-label'>
+                <label id='result-label'></label>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
