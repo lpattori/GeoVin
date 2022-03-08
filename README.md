@@ -1,5 +1,6 @@
 ### This repo contains the program to test the models used for the paper:
-# Using mobile phone images to identify Chagas Disease Vectors with Deep Learning
+# A convolutional neural network to recognize Chagas disease vectors using mobile phone images
+# 
 ## A Convolutional Neural Network to recognize Triatoma infestans, a Chagas disease vector, using images from standard mobile phones.
 
 This repo can be used as a starting point to build your Docker image and deploy it in a cloud service.
