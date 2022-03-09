@@ -1,8 +1,8 @@
 ### This repo contains the program to test the models used for the paper:
 ## A convolutional neural network to recognize Chagas disease vectors using mobile phone images
-#
+
 ## Published in [Ecological Informatics](https://www.sciencedirect.com/science/article/abs/pii/S157495412200036X?via%3Dihub#!) Volume 68 May 2022
-## 
+ 
 
 This repo can be used as a starting point to build your Docker image and deploy it in a cloud service.
 
